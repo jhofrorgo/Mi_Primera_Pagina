@@ -1,0 +1,390 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+/*barra sup*/
+#barra_superior {
+	width:1360;
+	height:35px;
+	background-color:#1C1C1C;
+	color:#848484;
+	font-size:12px;
+	font-weight:bold;
+}
+#barra_superior font{
+	margin-left:90px;
+	margin-top:10px;
+}
+/*menu*/
+#contenedor {
+	margin-left:0px;
+	background-color:black;
+	font-family:Arial, Helvetica, sans-serif;
+	width:1360px;
+	height:86px;
+	border-bottom: 2.5px solid #d4b34e;
+	position:fixed;
+	padding:0px 0px;
+	font-size:13px;
+	opacity:0.9;
+	z-index:90;  
+}
+.menu {
+	margin-left:380px;
+	margin-top:20px;
+	width:1360px;
+	padding:0px;
+}
+ul, ol {
+	list-style:none; 
+}
+.menu > ol {
+	float:left;
+}
+.menu ol a {
+	color:#d4b34e;
+	text-decoration:none;
+	display:block;
+	padding:35px 16px;
+	margin-top:-20px;
+	
+}
+.menu ol ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	margin-left:200px;
+}
+.menu ol a:hover {
+	background-color:#d4b34e;
+	color:black;
+	font-weight:bold;
+	text-decoration:underline;
+	display:block;
+}
+/*logo*/
+#logo > img{
+	width:135px;
+	height:145px;
+	margin-left:90px;
+	position:fixed;
+	z-index:100;
+}
+/*imagen de fondo1*/
+#imagen_fondo > img{
+	width:1360;
+	height:650px;
+	
+}
+/*reservacion*/
+#reservacion {
+	width:300px;
+	height:450px;
+	background-color:#d4b34e;
+	margin-left:90px;
+	margin-top:-480px;
+	position:relative;
+	border-radius:9px;
+}
+#reservacion h2{
+	margin-top:15px;
+	margin-left:3px;
+	position:absolute;
+	font-size:33px;
+	border-bottom: 1.8px solid #925c08;
+	color:#925c08;
+}
+.registrar {
+	margin-left:20px;
+	padding-top:80px;
+}
+.registrar2 {
+	margin-left:20px;
+	padding-top:40px;
+	width:100px;
+}
+.registrar input{
+	width:250px;
+	padding:6px;
+	border-radius:15px;
+}
+.registrar2 input{
+	width:100px;
+	border-radius:15px;
+}
+#disponibilidad {
+	padding:15px;
+	width:180px;
+	background-color:#925c08;
+	margin-left:135px;
+	margin-top:-70px;
+	position:absolute;
+	color:#F8ECE0;
+	font-weight:bold;
+	border-radius:30px;
+}
+/*icoos de redes*/
+#redes {
+	color:#F8FBEF;
+	font-weight:bold;
+	margin-top:-450px;
+	font-size:40px;
+	margin-left:300px;
+}
+/*media pg*/
+#timbre {
+	margin-top:400px;
+	margin-left:700px;
+	font-size:35px;
+	color:#925c08;
+	font-weight:bold;
+}
+#conoce_nuestras {
+	margin-top:-200px;
+	margin-left:-600px;
+	font-size:35px;
+	color:#925c08;
+	font-weight:bold
+}
+#habitacion1 img{
+	width:200px;
+	height:120px;
+	margin-left:90px;
+	margin-top:100px;
+}
+#habitacion2 img{
+	margin-left:400px;
+	margin-top:-180px;
+	width:200px;
+	height:120px;
+}
+#habitacion3 img{
+	margin-left:400px;
+	margin-top:-30px;
+	width:200px;
+	height:120px;
+}
+a {
+	text-decoration:none;
+	color:#F8FBEF;
+}
+#habitaciont1 font:hover{
+	color:#d4b34e;
+}
+#habitaciont2 font:hover{
+	color:#d4b34e;
+}
+#habitaciont3 font:hover{
+	color:#d4b34e;
+}
+#habitaciont1 {
+	background-color:#925c08;
+	color:#F8FBEF;
+	width:200px;
+	height:120px;
+	margin-left:110px;
+	margin-top:-210px;
+	font-weight:bold;
+	font-size:22px;
+	position:absolute;
+}
+#habitaciont2 {
+	background-color:#925c08;
+	color:#F8FBEF;
+	width:200px;
+	height:120px;
+	margin-left:420px;
+	margin-top:-270px;
+	font-weight:bold;
+	font-size:22px;
+	position:absolute;
+}
+#habitaciont3 {
+	background-color:#925c08;
+	color:#F8FBEF;
+	width:200px;
+	height:120px;
+	margin-left:420px;
+	margin-top:-120px;
+	font-weight:bold;
+	font-size:22px;
+	position:absolute;
+}
+/*reservacion2*/	
+#disponibilidad2 {
+	margin-top:50px;
+	width:1360px;
+	background-color:#925c08;
+	padding:50px;
+	color:#F8FBEF;
+	font-weight:bold;
+	font-size:20px;
+}
+#disponibilidad2 input{
+	width:150px;
+	padding:6px;
+	border-radius:15px;
+}
+#disponibilidad3 {
+	padding:15px;
+	width:180px;
+	background-color:#61380B;
+	position:absolute;
+	color:#F8ECE0;
+	font-weight:bold;
+	border-radius:30px;
+	margin-left:1100px;
+	margin-top:-70px;
+}
+#tour {
+	color:#925c08;
+	font-size:30px;
+	margin-top:30px;
+	margin-left:-80px;
+}
+/*menu*/
+#contenedor2 {
+	margin-left:-120px;
+	margin-top:30px;
+	background-color:none;
+	height:86px;
+	padding:0px 0px;
+	font-size:13px;
+}
+.menu2 {
+	margin-left:450px;
+	margin-top:20px;
+	padding:0px;
+}
+ul, ol {
+	list-style:none; 
+}
+.menu2 > ol {
+	float:left;
+}
+.menu2 ol a {
+	color:black;
+	text-decoration:none;
+	display:block;
+	padding:15px 16px;
+	margin-top:-18px;
+	font-weight:bold;
+}
+.menu2 ol ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+	margin-left:200px;
+}
+.menu2 ol a:hover {
+	background-color:#925c08;
+	color:#d4b34e;
+	font-weight:bold;
+	display:block;
+	border-radius:25px;
+}
+/*imagenes*/
+#images1 img{
+	width:275px;
+	height:250px;
+}
+#txtimages1 {
+	margin-left:40px;
+	margin-top:-150px;
+	color:#F8FBEF;
+	font-size:22px;
+	opacity:0;
+}
+#txtimages1:hover {
+	opacity:1.0;
+	font-weight:bold;
+}
+#images2 img{
+	width:275px;
+	height:250px;
+	margin-left:275px;
+	margin-top:-152px;
+}
+#txtimages2 {
+	margin-left:290px;
+	margin-top:-150px;
+	color:#F8FBEF;
+	font-size:22px;
+	opacity:0;
+}
+#txtimages2:hover {
+	opacity:1.0;
+	font-weight:bold;
+}
+#images3 img{
+	width:275px;
+	height:250px;
+	margin-left:550px;
+	margin-top:-152px;
+}
+#txtimages3 {
+	margin-left:570px;
+	margin-top:-150px;
+	color:#F8FBEF;
+	font-size:22px;
+	opacity:0;
+}
+#txtimages3:hover {
+	opacity:1.0;
+	font-weight:bold;
+}
+#images4 img{
+	width:275px;
+	height:250px;
+	margin-left:825px;
+	margin-top:-152px;
+}
+#txtimages4 {
+	margin-left:845px;
+	margin-top:-150px;
+	color:#F8FBEF;
+	font-size:22px;
+	opacity:0;
+}
+#txtimages4:hover {
+	opacity:1.0;
+	font-weight:bold;
+}
+#images5 img{
+	width:275px;
+	height:250px;
+	margin-left:1100px;
+	margin-top:-152px;
+}
+#txtimages5 {
+	margin-left:1120px;
+	margin-top:-150px;
+	color:#F8FBEF;
+	font-size:22px;
+	opacity:0;
+}
+#txtimages5:hover {
+	opacity:1.0;
+	font-weight:bold;
+}
+/*video*/
+#tu_mejor_destino {
+	width:600px;
+	margin-left:90px;
+	margin-top:160px;
+	font-size:25px;
+	text-align:left;
+}
+#tu_mejor_destino h1{
+	color:#925c08;
+}
+#video video {
+	width:500px;
+	height:400px;
+	margin-left:740px;
+	margin-top:-350px;
+}
+/*barra inf*/
+#barra_inferior img{
+	width:1360px;
+}
